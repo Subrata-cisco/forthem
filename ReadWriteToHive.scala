@@ -25,8 +25,8 @@ object ReadWriteToHive {
 
   def main(args: Array[String]) {
     val bucketName = "subrata-csv";
-    val key = "AKIAIVWJWIJJZR7CDLMQ";
-    val secret = "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";
+    val key = "******";
+    val secret = "*******";
 
     val sparkSession = SparkSession.builder()
       .master("local[*]")
